@@ -1,0 +1,128 @@
+/* src/App.css */
+@font-face {
+  font-family: 'Satoshi-Light';
+  src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
+       url('../fonts/Satoshi-Light.woff') format('woff'),
+       url('../fonts/Satoshi-Light.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('../fonts/Satoshi-Regular.woff') format('woff'),
+       url('../fonts/Satoshi-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('../fonts/Satoshi-Medium.woff2') format('woff2'),
+       url('../fonts/Satoshi-Medium.woff') format('woff'),
+       url('../fonts/Satoshi-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-MediumItalic';
+  src: url('../fonts/Satoshi-MediumItalic.woff2') format('woff2'),
+       url('../fonts/Satoshi-MediumItalic.woff') format('woff'),
+       url('../fonts/Satoshi-MediumItalic.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: italic;
+}
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
+       url('../fonts/Satoshi-Bold.woff') format('woff'),
+       url('../fonts/Satoshi-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Black';
+  src: url('../fonts/Satoshi-Black.woff2') format('woff2'),
+       url('../fonts/Satoshi-Black.woff') format('woff'),
+       url('../fonts/Satoshi-Black.ttf') format('truetype');
+       font-weight: 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+*{
+  background-color: #1b1b1b;
+}
+.container {
+  margin-top: 2rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 1;
+  color-scheme: light dark;
+  color: #fffff2;
+
+}
+h1{
+  font-family: 'Satoshi-Black';
+  font-size: 30px;
+}
+.label {
+  padding-top: 1.5rem;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  display: block;
+  font-family: 'Satoshi-Black';
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #fffff2;
+  border-radius: 10px;
+  background-color: #242424;
+
+}
+
+.button {
+  background-color: #007bff;
+  color: #fffff2;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Satoshi-Regular';
+  font-size: 15px;
+}
+
+.error {
+  color: #dc3545;
+  margin-top: 1rem;
+  font-family: 'Satoshi-Medium';
+  font-style: italic; 
+}
+
+h4{
+  font-size: 1.5rem;
+}
+
+.generated-password {
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  word-break: break-all;
+  font-family: 'Satoshi-Bold';
+}
